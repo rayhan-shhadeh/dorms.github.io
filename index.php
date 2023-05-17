@@ -47,7 +47,7 @@
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
             <a href="index.php" class="navbar-brand d-flex align-items-center text-center">
                 <div class="icon p-2 me-2">
-                    <img class="img-fluid" src="img/icon-logo.gif" alt="Icon" style="width: 40px; height: 40px;">
+                    <img class="img-fluid" src="img/icon-logo.gif" alt="Icon" style="width: 30px; height: 30px;">
                 </div>
                 <h1 class="m-0 text-primary">ANNU Droms</h1>
             </a>
@@ -63,23 +63,21 @@
                         <div class="dropdown-menu rounded-0 m-0">
                             <a href="property-list.php" class="dropdown-item">dorm List</a>
                             <a href="property-type.php" class="dropdown-item">dorm Type</a>
-                            <a href="property-agent.php" class="dropdown-item">dorm Agent</a>
+                            <a href="all-dorms.php" class="dropdown-item">dorm Agent</a>
                         </div>
                     </div>
-
-
 
                     <a href="testimonial.php" class="nav-item nav-link">Testimonial</a>
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
 
-                    </div>
-
                 </div>
-                <a href="" class="btn btn-primary px-3 d-none d-lg-flex">Add Property</a>
+                <a href="" class="btn btn-primary px-3 d-none d-lg-flex">Sign Up</a>
             </div>
         </nav>
     </div>
     <!-- Navbar End -->
+
+
 
 
     <!-- Header Start -->
@@ -532,7 +530,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                            <img class="img-fluid" src="img/diana.jpg" alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                 <a class="btn btn-square mx-1" href="https://www.facebook.com/diana.qwariq"><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square mx-1" href="https://twitter.com/home?lang=ar"><i class="fab fa-twitter"></i></a>
@@ -629,7 +627,7 @@
                     <h5 class="text-white mb-4">Get In Touch</h5>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Nablus Al-Makhfyah</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+970599158596</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>diana.qwariq2002@gmail.com</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>ANNUdorms@gmail.com</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-outline-light btn-social" href="https://twitter.com/qwariq"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/diana.qwariq"><i class="fab fa-facebook-f"></i></a>
@@ -688,7 +686,7 @@
                         &copy; <a class="border-bottom" href="#">An-Najah Dorms</a>, All Right Reserved.
 
 
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">Diana Qwariq&Rayhan Mahmoud</a>
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">Diana Qwariq & Rayhan Mahmoud</a>
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">

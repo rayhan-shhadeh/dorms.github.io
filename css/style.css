@@ -17,7 +17,7 @@
 
 .price-search button {
     padding: 5px 10px;
-    background-color: #083e73;
+    background-color: #19A7CE;
     border: none;
     color: white;
     text-align: center;
@@ -29,16 +29,18 @@
 }
 
 .price-search button:hover {
-    background-color: #083e73;
+    background-color: #19A7CE;
 }
 
 
 
 :root {
-    --primary: #0453a2;
-    --secondary: #FF6922;
-    --light: #EFFDF5;
-    --dark: #0453a2;
+    --primary: #19A7CE;  /*(25,167,206) */
+    --secondary: #146C94;   /* (20,108,148) */
+    --light: #AFD3E2;    /* (175,211,226)*/
+    --dark: #0A4D68;      /* (10,77,104) */
+
+
 }
 
 .back-to-top {
@@ -239,7 +241,7 @@
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
-    color: #3e4491;
+    color: #E57C23;
 }
 
 
@@ -277,7 +279,7 @@
 /*** Category ***/
 .cat-item div {
     background: #FFFFFF;
-    border: 1px dashed rgba(62, 73, 145, .3);
+    border: 1px dashed rgba(25, 167,206, .5);
     transition: .5s;
 }
 
@@ -291,7 +293,7 @@
 }
 
 .cat-item:hover div * {
-    color: #3e4491 !important;
+    color: #F6F1F1 !important;
 }
 
 
@@ -475,51 +477,9 @@
 }
 .fa-shekel-sign:before{content:"\f20b"}
 
+#box{
+    height:70px;
+    width:auto;
 
-
-
-/*   start rigester page style */
-
-.indent-small {
-    margin-left: 5px;
+    box-shadow:#afd3e2 29px 24px 40px 15px ;
 }
-.form-group.internal {
-    margin-bottom: 0;
-}
-
-.dialog-panel {
-    margin: 10px;
-}
-
-.datepicker-dropdown {
-    z-index: 200 !important;
-}
-
-.panel-body {
-    background: #e5e5e5; /* Old browsers */
-    background: -moz-radial-gradient( ellipse at center,#e5e5e5 0%, #ffffff 100%) ;
-    background: -webkit-radial-gradient( circle at center,  #e5e5e5 0% , #ffffff 100%) ;
-
-    background: -webkit-radial-gradient(
-
-            ellipse at center,
-            #e5e5e5 0%,
-            #ffffff 100%
-    ); /* Chrome10+,Safari5.1+ */
-
-    background: radial-gradient(
-            ellipse at center,
-            #e5e5e5 0%,
-            #ffffff 100%
-    ); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-    font: 600 15px "Open Sans", Arial, sans-serif;
-}
-
-label.control-label {
-    font-weight: 600;
-    color: #777;
-}
-
-/*   start rigester page style */
